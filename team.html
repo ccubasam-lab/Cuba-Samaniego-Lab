@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./images/lab favicon.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./static/custom.css">
+
+  <!-- Scroll suave -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+
+<body>
+  <!-- Sidebar -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <img src="./images/cslab logo.svg" alt="Lab Logo" class="nav-logo">
+    </div>
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+      <h2>Our Team</h2>
+
+      <!-- Principal Investigator -->
+      <div class="pi-container">
+        <img src="./images/nosotros/Christian.jpeg" alt="Christian Cuba Samaniego" class="pi-photo">
+        <div class="pi-info">
+          <p><strong>Christian Cuba Samaniego</strong><br>
+          Assistant Professor<br>
+          Ray and Stephanie Lane Computational Biology Department<br>
+          Carnegie Mellon University</p>
+        </div>
+      </div>
+
+      <div class="team-filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="synthetic-biology">Synthetic Biology</button>
+        <button data-filter="machine-learning">Machine Learning</button>
+        <button data-filter="control-theory">Control Theory</button>
+      </div>
+
+      <!-- Lab Members -->
+      <div class="lab-members">
+        <h3>PhD Students</h3>
+
+        <div class="team-grid">
+
+           <div class="team-member" data-area="machine-learning">
+
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Frank Britto Bisso</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              Joint CMU–Pitt PhD in Computational Biology
+            </p>
+            <p class="member-email">fbrittob[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+          <div class="team-member" data-area="machine-learning">
+
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Terry Ma</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              Ph.D. Program in Computational Biology
+            </p>
+            <p class="member-email">terryma[at]cs[dot]cmu[dot]edu</p>
+          </div>
+        </div>
+
+        <h3>MS Students</h3>
+        <div class="team-grid">
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Yinan Zhu</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              MS in Automated Science
+            </p>
+            <p class="member-email">yinanzhu[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+          <div class="team-member">
+            <p class="member-name">William Lu</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              MS in Computational Biology
+            </p>
+          </div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Enhao He</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              MS in Computational Biology
+            </p>
+            <p class="member-email">enhaoh[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Jake Slackman</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              MS in Computational Biology
+            </p>
+            <p class="member-email">jslackma[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Yao Wang</p>
+            <p class="member-meta">
+              University of Pittsburgh<br>
+              MS in Computational biomedicine and biotechnology
+            </p>
+            <p class="member-email">yaw165[at]pitt[dot]edu</p>
+          </div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Sushmita Halder</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              MS in Computational Biology
+            </p>
+            <p class="member-email">sushmith[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+        </div>
+
+        
+
+        <h3>Onsite Interns</h3>
+        <div class="team-grid">
+
+          <div class="team-member" data-area="control-theory">
+            <img src="./images/badges/ct.svg"
+                class="area-badge top-right"
+                title="Control Theory"
+                alt="Control Theory">
+            <p class="member-name">Shreyas Chavan</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              Mechanical engineering
+            </p>
+            <p class="member-email">svchavan[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+          <div class="team-member">
+            <p class="member-name">Alfred Liu</p>
+            <p class="member-meta">
+              Carnegie Mellon University<br>
+              Quantitative Biology & Bioinformatics
+            </p>
+            <p class="member-email">alfredl[at]andrew[dot]cmu[dot]edu</p>
+          </div>
+
+        </div>
+
+        <h3>Remote Interns</h3>
+        <div class="team-grid">
+          <div class="team-member"><p><strong>Vijay Subramanian</strong><br>Research Intern</p></div>
+
+          <div class="team-member" data-area="machine-learning">
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Krishna Sharma</p>
+            <p class="member-meta">
+              Sardar Patel Institute of Technology<br>
+              Mechanical engineering
+            </p>
+            <p class="member-email">krishnasharma3400[at]gmail[dot]com</p>
+          </div>
+
+          <div class="team-member" data-area="machine-learning">
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Kriva Shah</p>
+            <p class="member-meta">
+              University of Mumbai<br>
+              Artificial Intelligence and Data Science
+            </p>
+            <p class="member-email">krivayshah[at]gmail[dot]com</p>
+          </div>
+
+          <div class="team-member" data-area="machine-learning">
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Yash Desai</p>
+            <p class="member-meta">
+              Sardar Patel Institute of Technology <br>
+              Computer Engineering
+            </p>
+            <p class="member-email">desaiyash7272[at]gmail[dot]com</p>
+          </div>
+
+          <div class="team-member" data-area="machine-learning">
+            <img src="./images/badges/ml.svg"
+                class="area-badge top-right"
+                title="Machine Learning"
+                alt="Machine Learning">
+            <p class="member-name">Arya Mehta</p>
+            <p class="member-meta">
+              Sardar Patel Institute of Technology <br>
+              Computer Engineering
+            </p>
+            <p class="member-email">aryamehta944[at]gmail[dot]com</p>
+          </div>
+
+          <div class="team-member"><p><strong>Rodrigo Aguilar Diaz</strong><br>Research Intern</p></div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Jennyfer Arismendiz</p>
+            <p class="member-meta">
+              Pontifical Catholic University of Peru<br>
+              Peruvian University Cayetano Heredia<br>
+              Bs. Biomedical Engineering
+            </p>
+            <p class="member-email">jennyfer[dot]arismendiz[at]pucp[dot]edu[dot]pe</p>
+          </div>
+
+          <div class="team-member" data-area="synthetic-biology">
+            <img src="./images/badges/sb.svg"
+                class="area-badge top-right"
+                title="Synthetic Biology"
+                alt="Synthetic Biology">
+            <p class="member-name">Mijael Espinoza</p>
+            <p class="member-meta">
+              National Major University of San Marcos<br>
+              Bs.Genetics and Biotechnology 
+            </p>
+            <p class="member-email">mijael[dot]espinoza[at]unmsm[dot]edu[dot]pe</p>
+          </div>
+
+          <div class="team-member"><p><strong>Cesar Castro</strong><br>Research Intern</p></div>
+
+
+          <div class="team-member"><p><strong>Claudia Montufar</strong><br>Research Intern</p></div>
+          
+
+          <div class="team-member">
+            <p class="member-name">Ariana Dextre</p>
+            <p class="member-meta">
+              Pontifical Catholic University of Peru<br>
+              Peruvian University Cayetano Heredia<br>
+              Biomedical Engineering
+            </p>
+            <p class="member-email">ariana[dot]dextre[at]pucp[dot]edu[dot]pe</p>
+          </div>
+          
+
+          <div class="team-member" data-area="control-theory">
+            <img src="./images/badges/ct.svg"
+                class="area-badge top-right"
+                title="Control Theory"
+                alt="Control Theory">
+            <p class="member-name">Sergio Rengifo</p>
+            <p class="member-meta">
+              National University of Trujillo<br>
+              Computer Science
+            </p>
+            <p class="member-email">P880301324[at]unitru[dot]edu[dot]pe</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Cuba Samaniego Lab — Carnegie Mellon University</p>
+    </footer>
+
+  </main>
+  <script>
+  const buttons = document.querySelectorAll(".team-filters button");
+  const members = document.querySelectorAll(".team-member");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+
+      /* activar botón */
+      buttons.forEach(b => b.classList.remove("active"));
+      button.classList.add("active");
+
+      const filter = button.dataset.filter;
+
+      members.forEach(member => {
+        const areaAttr = member.dataset.area;
+
+        /* miembros sin área */
+        if (!areaAttr) {
+          member.style.display = filter === "all" ? "block" : "none";
+          return;
+        }
+
+        const areas = areaAttr.split(" ").map(a => a.trim());
+
+        if (filter === "all" || areas.includes(filter)) {
+          member.style.display = "block";
+        } else {
+          member.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
