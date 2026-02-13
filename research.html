@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./images/lab favicon.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./static/custom.css">
+
+  <!-- Scroll suave -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <img src="./images/cslab logo.svg" alt="Lab Logo" class="nav-logo">
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="team.html">Team</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+
+
+    <section id="research" class="research-section">
+        <h2>Research</h2>
+
+        <p class="research-intro">
+          We study how principles from control theory, machine learning, and systems engineering
+          can be used to understand and design living systems.
+        </p>
+      </section>
+      <br>
+
+      <!-- Research Directions -->
+      <section class="research-directions">
+
+        <!-- 1 -->
+        <div class="research-container">
+          <div class="research-item">
+
+            <button class="research-header">
+              <span><strong>Engineering circuits that behave as neural networks</strong></span>
+              <span class="toggle-icon">+</span>
+            </button>
+
+            <div class="research-content">
+              <p>
+                Neural-network–like computation can be implemented directly within living cells
+                using genetic, enzymatic, and CRISPR-based circuits.
+                Recent work demonstrates that biomolecular networks can operate as linear
+                and nonlinear classifiers, enabling pattern recognition.
+                These results establish a foundation for neuromorphic computing
+                using biological substrates.
+              </p>
+            </div>
+
+            <div class="paper-list">
+              <strong>Key papers</strong>
+              <ol class="paper-ol">
+                <li>
+                  Leon, C. M., Wang, Y., Bisso, F. B., Mehta, A., & Samaniego, C. C. (2025).
+                  <i>CRISPR-based neuromorphic computing for solving regression and classification.</i>
+                  <a href="https://doi.org/10.64898/2025.12.03.692209" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.64898/2025.12.03.692209
+                  </a>
+                </li>
+
+                <li>
+                  Bisso, F. B., Shree, D., Zhu, Y., & Samaniego, C. C. (2025).
+                  <i>Design principles of neuromorphic computing using genetic circuits.</i>
+                  <a href="https://doi.org/10.64898/2025.12.01.691482" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.64898/2025.12.01.691482
+                  </a>
+                </li>
+
+                <li>
+                  Britto Bisso, F., Aguilar, R., Shree, D., Zhu, Y., Espinoza, M., Diaz, B., & Cuba Samaniego, C. (2025).
+                  <i>Pattern recognition in living cells through the lens of machine learning.</i>
+                  <a href="https://doi.org/10.1098/rsob.240377" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1098/rsob.240377
+                  </a>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+        <!-- 2 -->
+        <div class="research-container">
+          <div class="research-item">
+
+            <button class="research-header">
+              <span><strong>Computation under resource constraints</strong></span>
+              <span class="toggle-icon">+</span>
+            </button>
+
+            <div class="research-content">
+              <p>
+                Biomolecular circuits operate in environments where transcriptional and
+                translational resources are inherently shared.
+                This line of research examines how resource competition alters the behavior
+                of protein and genetic neural networks.
+                Sequestration-based designs reveal strategies that allow reliable computation
+                even under strong cellular constraints.
+              </p>
+            </div>
+
+            <div class="paper-list">
+              <strong>Key papers</strong>
+              <ol class="paper-ol">
+                <li>
+                  He, E., Britto Bisso, F., & Cuba Samaniego, C. (2025).
+                  <i>Sequestration-based protein neural networks tolerate the effects of shared translational resources.</i>
+                  <a href="https://doi.org/10.64898/2025.12.01.691641" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.64898/2025.12.01.691641
+                  </a>
+                </li>
+
+                <li>
+                  Moghimianavval, H., Gispert, I., Castillo, S. R., Corning, O. B. W. H., Liu, A. P., & Cuba Samaniego, C. (2024).
+                  <i>Engineering sequestration-based biomolecular classifiers with shared resources.</i>
+                  <a href="https://doi.org/10.1021/acssynbio.4c00270" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1021/acssynbio.4c00270
+                  </a>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+        <!-- 3 -->
+        <div class="research-container">
+          <div class="research-item">
+
+            <button class="research-header">
+              <span><strong>Feedback control</strong></span>
+              <span class="toggle-icon">+</span>
+            </button>
+
+            <div class="research-content">
+              <p>
+                We apply principles of feedback and adaptive control to regulate gene expression
+                and cellular behavior.
+                Our work focuses on biomolecular controllers that restore and stabilize
+                dynamic behaviors, including sustained oscillations and cell-fate regulation,
+                in the presence of uncertainty and disturbances.
+              </p>
+            </div>
+
+            <div class="paper-list">
+              <strong>Key papers</strong>
+              <ol class="paper-ol">
+                <li>
+                  Britto Bisso, F., Giordano, G., & Cuba Samaniego, C. (2025).
+                  <i>Engineering cell fate with adaptive feedback control.</i>
+                  <a href="https://doi.org/10.1021/acssynbio.5c00299" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1021/acssynbio.5c00299
+                  </a>
+                </li>
+
+                <li>
+                  Bisso, F. B., Dey, S., Stan, G.-B., & Cuba Samaniego, C. (2024).
+                  <i>Design of a biomolecular adaptive controller to restore sustained periodic behavior.</i>
+                  <a href="https://doi.org/10.1101/2024.10.11.617962" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1101/2024.10.11.617962
+                  </a>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+        <!-- 4 -->
+        <div class="research-container">
+          <div class="research-item">
+
+            <button class="research-header">
+              <span><strong>Biological circuit design</strong></span>
+              <span class="toggle-icon">+</span>
+            </button>
+
+            <div class="research-content">
+              <p>
+                Predictable biological behavior requires circuits with well-defined
+                and tunable dynamics.
+                Work in this area focuses on sequestration-based architectures
+                that generate pulsing, oscillatory, and computational responses.
+                These design principles support the construction of modular
+                and scalable circuits for complex biological functions.
+              </p>
+            </div>
+
+            <div class="paper-list">
+              <strong>Key papers</strong>
+              <ol class="paper-ol">
+                <li>
+                  Nakamura, E., Samaniego, C. C., Blanchini, F., Giordano, G., & Franco, E. (2024).
+                  <i>Design of a sequestration-based network with tunable pulsing dynamics.</i>
+                  <a href="https://doi.org/10.1109/CDC56724.2024.10886733" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1109/CDC56724.2024.10886733
+                  </a>
+                </li>
+
+                <li>
+                  Samaniego, C. C., Wallace, E., Blanchini, F., Franco, E., & Giordano, G. (2024).
+                  <i>Neural networks built from enzymatic reactions can operate as linear and nonlinear classifiers.</i>
+                  <a href="https://doi.org/10.1101/2024.03.23.586372" target="_blank" rel="noopener" class="pub-doi">
+                    https://doi.org/10.1101/2024.03.23.586372
+                  </a>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+      </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Cuba Samaniego Lab — Carnegie Mellon University</p>
+    </footer>
+  </main>
+
+  <script>
+    document.querySelectorAll(".research-header").forEach(button => {
+      button.addEventListener("click", () => {
+        const item = button.parentElement;
+        item.classList.toggle("active");
+      });
+    });
+  </script>
+
+</body>
+</html>
